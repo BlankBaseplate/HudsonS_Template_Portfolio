@@ -82,10 +82,35 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+# Starter Project
+
+Summary
+For my starter project I chose the Retro Arcade Console. It had multiple gamemodes such as tetris, space invaders, and more. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gi7opj50VXs?si=p5391IpJNljBN9r4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Components used
+- 1 Buzzer
+- 1 Electric Capacitor
+- 1 Micro USB
+- 1 Power Cable
+- 1 Self-switch
+- 1 Self-switch cap
+- 1 Digitron display
+- 1 IC Chip
+- 2 LED dot matrix modules
+- 6 Buttons
+- 6 Button caps
+- 1 PCB
+- 10 Screws
+- 4 Copper columns
+- 4 Hexagonal columns
+- 1 Battery case
+- 6 Acrylic shells
+
+Most of these components besides the columns and the screws were soldered to the printed circuit board (PCB). This allowed the electric currents from the battery pack to flow through the solders and allow the Retro Arcade Console to function. 
+
+Challenges Faced
+My main problem with this project was properly placing the solders. I kept running into the problem of having cold solders which meant that the solder wasnt melting enough as the iron kit wasn't hot enough. I fixed this by changing the tip of the ironing kit and also turning up the heat. I also made sure that I was cleaning off execess solder on the tip of the ironing kit by putting the tip in brass to clean it. Another challenege I faced was getting precise about the solder welds. This was a problem as the solder joints would be very close to each other and often times connecting to each other. I solved this by disconnecting them with the ironing kit by keeping the tip in the middle of the two connected joints. 
 
 To watch the BSE tutorial on how to create a portfolio, click here.
