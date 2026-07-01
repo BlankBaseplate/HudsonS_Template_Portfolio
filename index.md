@@ -31,8 +31,6 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YkA2mTx3aO4?si=McGtIobe3QWB95xG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 In this milestone I was able to connect the Mini Tank Robot to bluetooth. This allowed me to control the Mini Tank robot with my phone. This was due to me installing the bluetooth module onto the robot which allowed the robot to take inputs and perform output actions from my phone. The bluetooth module also helped display the distance of an object infront of the robot through the ultrasonic distance sensor and displaying it on an app on my phone. This project suprised me by me learning about new things at a relatively fast pace, as I didn't know how to connect Arduino components to bluetooth along with coding Arduino prior to the project. Before I reach my final milestone, I need to figure out what materials I want to use, along with where I want to place all of the components. My idea is to put rockets ontop of the Mini Tank Robot and have them launch and it may be challenging to find a way to fit everything and make sure everything works. 
