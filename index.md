@@ -35,12 +35,6 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YkA2mTx3aO4?si=McGtIobe3QWB95xG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
-
 In this milestone I was able to connect the Mini Tank Robot to bluetooth. This allowed me to control the Mini Tank robot with my phone. This was due to me installing the bluetooth module onto the robot which allowed the robot to take inputs and perform output actions from my phone. The bluetooth module also helped display the distance of an object infront of the robot through the ultrasonic distance sensor and displaying it on an app on my phone. This project suprised me by me learning about new things at a relatively fast pace, as I didn't know how to connect Arduino components to bluetooth along with coding Arduino prior to the project. Before I reach my final milestone, I need to figure out what materials I want to use, along with where I want to place all of the components. My idea is to put rockets ontop of the Mini Tank Robot and have them launch and it may be challenging to find a way to fit everything and make sure everything works. 
 
 Challenges faced
@@ -49,12 +43,6 @@ During this milestone I had trouble putting together the components. I had troub
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0TFiV7wv_90?si=M8jecxFUCus5Npow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
 
 I built my Mini Tank Robot using tank treads, wheels, motors, a led lightboard, a battery pack, a Arduino Uno, and a battery pack. The Arduino Uno allowed me to code the robot using Arduino IDE (Integrated Development Environment). This code let the robot perform certain functions like moving forward, backward, left, and right. In addition to that it calculated the distance of the Mini Tank Robot from an object infront of it along with connect to bluetooth to be controlled by a mobile device. The LED lightboard displayed what function the robot was going through, for example whenever the robot was about to stop the LED lightboard displayed STOP, and when it was going forward it displayed a front arrow. The Motors helped drive the robot by moving the wheels and the treads. My plan to complete my project is to first build the full robot and test all the sensors using Arduino IDE and then connect it to bluetooth and add further modifications. 
 
