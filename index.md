@@ -1,12 +1,6 @@
 # Mini Tank Robot
 Building a Mini Tank Robot had lots of challenges, ranging from having to find a new power source to trying to get the robot to drive. By far, my favorite part of this project has been assembling my project and being able to see all of the components work as intended.
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
-
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Hudson S | Westmont Highschool | Mechanical Engineering | Incoming Senior
