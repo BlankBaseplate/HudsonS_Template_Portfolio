@@ -311,5 +311,3 @@ Most of these components besides the columns and the screws were soldered to the
 
 # Challenges Faced
 My main problem with this project was properly placing the solders. I kept running into the problem of having cold solders which meant that the solder wasnt melting enough as the iron kit wasn't hot enough. I fixed this by changing the tip of the ironing kit and also turning up the heat. I also made sure that I was cleaning off execess solder on the tip of the ironing kit by putting the tip in brass to clean it. Another challenege I faced was getting precise about the solder welds. This was a problem as the solder joints would be very close to each other and often times connecting to each other. I solved this by disconnecting them with the ironing kit by keeping the tip in the middle of the two connected joints. 
-
-To watch the BSE tutorial on how to create a portfolio, click here.
