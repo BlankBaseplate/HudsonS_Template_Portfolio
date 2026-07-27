@@ -11,6 +11,12 @@ Building a Mini Tank Robot had lots of challenges, ranging from having to find a
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+# Summary
+In this milestone I focused on modifying my project. I 3d printed a rocket holder, a turret for the rocket holder, and the rockets themselves. Aswell as implemented a thermal camera to track heat that I can manually have the rockets lock onto. This works by having the thermal camera track the hottest source and when I click lock on the touchscreen it automatically locks onto the hottest heat source within the touchscreen. 
+
+# Things I learned
+This milestone taught me lots of things, it further improved my CAD skills with trying to create 3 seperate parts and thinking about how theyll all connect together. I also learned how to connect a ESP32 to a touchscreen as the specific touchscreen I used (ILI9341) could only support an ESP32. With this in mind I had to run both an Arduino UNO and a ESP32 on my Mini Tank Robot and had them run seperately from each other. As the ESP32 is 3.3 Volt microcontroller and a Arduino UNO is a 5 Volt microcontroller, meaning that if I connected them it would short circuit. Finally, I learned that 
+
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
@@ -27,7 +33,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 In this milestone I was able to connect the Mini Tank Robot to bluetooth. This allowed me to control the Mini Tank robot with my phone. This was due to me installing the bluetooth module onto the robot which allowed the robot to take inputs and perform output actions from my phone. The bluetooth module also helped display the distance of an object infront of the robot through the ultrasonic distance sensor and displaying it on an app on my phone. 
 
-# Thigns I learned
+# Things I learned
 This project suprised me by me learning about new things at a relatively fast pace, as I didn't know how to connect Arduino components to bluetooth along with coding Arduino prior to the project. Before I reach my final milestone, I need to figure out what materials I want to use, along with where I want to place all of the components. My idea is to put rockets ontop of the Mini Tank Robot and have them launch and it may be challenging to find a way to fit everything and make sure everything works. 
 
 # Challenges faced
