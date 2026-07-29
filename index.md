@@ -17,6 +17,9 @@ In this milestone I focused on modifying my project. I 3d printed a rocket holde
 # Things I learned
 This milestone taught me lots of things, it further improved my CAD skills with trying to create 3 seperate parts and thinking about how theyll all connect together. I also learned how to connect a ESP32 to a touchscreen as the specific touchscreen I used (ILI9341) could only support an ESP32. With this in mind I had to run both an Arduino UNO and a ESP32 on my Mini Tank Robot and had them run seperately from each other. As the ESP32 is 3.3 Volt microcontroller and a Arduino UNO is a 5 Volt microcontroller, meaning that if I connected them it would short circuit. Finally, I learned that 
 
+# Challenges faced
+I faced many challenges during this milestone when it came to the IR Thermal camera and rockets. Some of the challenges I faced was trying to get the thermal camera (MLX90640) to automatically lock onto heated objects. While simultaneously at the same time have the thermal camera mounted onto servo motors to have it scan an area of heated objects. However, when the thermal camera was scanning for heated objects it would end up detecting its own heat from its motor and lock onto itself. To fix this problem I decided I had to pivot from the motors being automatic to manual. Making the thermal camera manual consisted of using the touchscreen the thermal camera was displaying on and adding buttons on the touchscreen to manually control the servo motors. 
+
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
