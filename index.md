@@ -1,5 +1,5 @@
 # Mini Tank Robot
-Building a Mini Tank Robot had lots of challenges, ranging from having to find a new power source to trying to get the robot to drive. By far, my favorite part of this project has been assembling my project and being able to see all of the components work as intended.
+My Mini tank Robot consists of using an Arduino UNO and Sensor Shield v5.0 to drive the Mini Tank Robot, as well as using servo motors to control a thermal camera and a rocket turret.Building a Mini Tank Robot had lots of challenges, ranging from having to find a new power source to trying to get the robot to drive. By far, my favorite part of this project has been assembling my project and being able to see all of the components work as intended.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -11,13 +11,13 @@ Building a Mini Tank Robot had lots of challenges, ranging from having to find a
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# Summary
+## Summary
 In this milestone I focused on modifying my project. I 3d printed a rocket holder, a turret for the rocket holder, and the rockets themselves. Aswell as implemented a thermal camera to track heat that I can manually have the rockets lock onto. This works by having the thermal camera track the hottest source and when I click lock on the touchscreen it automatically locks onto the hottest heat source within the touchscreen. 
 
-# Things I learned
+## Things I learned
 This milestone taught me lots of things, it further improved my CAD skills with trying to create 3 seperate parts and thinking about how theyll all connect together. I also learned how to connect a ESP32 to a touchscreen as the specific touchscreen I used (ILI9341) could only support an ESP32. With this in mind I had to run both an Arduino UNO and a ESP32 on my Mini Tank Robot and had them run seperately from each other. As the ESP32 is 3.3 Volt microcontroller and a Arduino UNO is a 5 Volt microcontroller, meaning that if I connected them it would short circuit. Finally, I learned that 
 
-# Challenges faced
+## Challenges faced
 I faced many challenges during this milestone when it came to the IR Thermal camera and rockets. Some of the challenges I faced was trying to get the thermal camera (MLX90640) to automatically lock onto heated objects. While simultaneously at the same time have the thermal camera mounted onto servo motors to have it scan an area of heated objects. However, when the thermal camera was scanning for heated objects it would end up detecting its own heat from its motor and lock onto itself. To fix this problem I decided I had to pivot from the motors being automatic to manual. Making the thermal camera manual consisted of using the touchscreen the thermal camera was displaying on and adding buttons on the touchscreen to manually control the servo motors. 
 
 Another challenge I faced was 
@@ -34,14 +34,14 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YkA2mTx3aO4?si=McGtIobe3QWB95xG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# Summary
+## Summary
 
 In this milestone I was able to connect the Mini Tank Robot to bluetooth. This allowed me to control the Mini Tank robot with my phone. This was due to me installing the bluetooth module onto the robot which allowed the robot to take inputs and perform output actions from my phone. The bluetooth module also helped display the distance of an object infront of the robot through the ultrasonic distance sensor and displaying it on an app on my phone. 
 
-# Things I learned
+## Things I learned
 This project suprised me by me learning about new things at a relatively fast pace, as I didn't know how to connect Arduino components to bluetooth along with coding Arduino prior to the project. Before I reach my final milestone, I need to figure out what materials I want to use, along with where I want to place all of the components. My idea is to put rockets ontop of the Mini Tank Robot and have them launch and it may be challenging to find a way to fit everything and make sure everything works. 
 
-# Challenges faced
+## Challenges faced
 
 During this milestone I had trouble putting together the components. I had trouble finding out how to make the robot controllable via bluetooth, display a distance of an object infront of it, and also have the servomotor turn. I was able to figure out how to put the code together by using curly braces and putting the code into the voidloop or the voidsetup. However the actions were still being delayed due to some of the code being in seconds instead of milliseconds. I fixed this by making sure that all of the code used milliseconds instead of seconds to make all of the components respond to each other faster.
 
@@ -49,11 +49,11 @@ During this milestone I had trouble putting together the components. I had troub
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0TFiV7wv_90?si=M8jecxFUCus5Npow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# Summary
+## Summary
 
 I built my Mini Tank Robot using tank treads, wheels, motors, a led lightboard, a battery pack, a Arduino Uno, and a battery pack. The Arduino Uno allowed me to code the robot using Arduino IDE (Integrated Development Environment). This code let the robot perform certain functions like moving forward, backward, left, and right. In addition to that it calculated the distance of the Mini Tank Robot from an object infront of it along with connect to bluetooth to be controlled by a mobile device. The LED lightboard displayed what function the robot was going through, for example whenever the robot was about to stop the LED lightboard displayed STOP, and when it was going forward it displayed a front arrow. The Motors helped drive the robot by moving the wheels and the treads. My plan to complete my project is to first build the full robot and test all the sensors using Arduino IDE and then connect it to bluetooth and add further modifications. 
 
-# Challenges faced
+## Challenges faced
 
 Some challenges I faced was trying to upload code to the Mini Tank Robot. I tried switching out the Arduino UNO, along with modifying my code to ensure that there weren't any errors. However, I realized that the problem was due to me having a bluetooth module connected to the Arduino. This bluetooth module prevents new code from being uploaded to the robot when its connected to the Arduino, and so I learned to remove it whenever uploading new code. Another challenge I faced was finding a way to power the robot without it being plugged into the laptop. Since we didn't have 18650 batteries that the Mini Tank Robot originally took, I had to improvise. I decided that I would connect the robot to a battery pack connected to a usb port instead of using batteries. 
 
@@ -307,7 +307,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gi7opj50VXs?si=p5391IpJNljBN9r4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# Summary
+## Summary
 For my starter project I chose the Retro Arcade Console. It had multiple gamemodes such as tetris, space invaders, and more. 
 
 | **Part** | **Note** |
@@ -321,7 +321,7 @@ For my starter project I chose the Retro Arcade Console. It had multiple gamemod
 
 Most of these components besides the columns and the screws were soldered to the printed circuit board (PCB). This allowed the electric currents from the battery pack to flow through the solders and allow the Retro Arcade Console to function. 
 
-# Challenges Faced
+## Challenges Faced
 My main problem with this project was properly placing the solders. I kept running into the problem of having cold solders which meant that the solder wasnt melting enough as the iron kit wasn't hot enough. I fixed this by changing the tip of the ironing kit and also turning up the heat. I also made sure that I was cleaning off execess solder on the tip of the ironing kit by putting the tip in brass to clean it. Another challenege I faced was getting precise about the solder welds. This was a problem as the solder joints would be very close to each other and often times connecting to each other. I solved this by disconnecting them with the ironing kit by keeping the tip in the middle of the two connected joints. 
 
 # Resources
