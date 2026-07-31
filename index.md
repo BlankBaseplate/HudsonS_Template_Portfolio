@@ -24,9 +24,8 @@ Another challenge I faced was finding a correct spring size for my rockets. I ha
 
 ## The Future
 After learning a variety of skills from BlueStamp Engineering from soldering to using CAD I hope to create more projects in the future. Utilizing my new CAD skills I want to be able to create my own 3d prints, and projects on my own and I hope to learn more skills based off of what I know now. 
-For your final milestone, explain the outcome of your project. Key details to include are:
 
-![Bot Image](IMG_5868.jpeg)
+![Final Bot Image](IMG_5922.jpeg)
 
 # Second Milestone
 
