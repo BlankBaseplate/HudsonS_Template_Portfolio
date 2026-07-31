@@ -15,12 +15,12 @@ My Mini tank Robot consists of using an Arduino UNO and Sensor Shield v5.0 to dr
 In this milestone I focused on modifying my project. I 3d printed a rocket holder, a turret for the rocket holder, and the rockets themselves. Aswell as implemented a thermal camera to track heat that I can manually have the rockets lock onto. This works by having the thermal camera track the hottest source and when I click lock on the touchscreen it automatically locks onto the hottest heat source within the touchscreen. 
 
 ## Things I learned
-This milestone taught me lots of things, it further improved my CAD skills with trying to create 3 seperate parts and thinking about how theyll all connect together. I also learned how to connect a ESP32 to a touchscreen as the specific touchscreen I used (ILI9341) could only support an ESP32. With this in mind I had to run both an Arduino UNO and a ESP32 on my Mini Tank Robot and had them run seperately from each other. As the ESP32 is 3.3 Volt microcontroller and a Arduino UNO is a 5 Volt microcontroller, meaning that if I connected them it would short circuit. Finally, I learned that 
+This milestone taught me lots of things, it further improved my CAD skills with trying to create 3 seperate parts and thinking about how theyll all connect together. I also learned how to connect a ESP32 to a touchscreen as the specific touchscreen I used (ILI9341) could only support an ESP32. With this in mind I had to run both an Arduino UNO and a ESP32 on my Mini Tank Robot and had them run seperately from each other. As the ESP32 is 3.3 Volt microcontroller and a Arduino UNO is a 5 Volt microcontroller, meaning that if I connected them it would short circuit. Finally, I learned that an MG996R motor can only turn 180 degrees due to an internal feedback potentiometer, and built in gears that stops it from turning further. 
 
 ## Challenges faced
 I faced many challenges during this milestone when it came to the IR Thermal camera and rockets. Some of the challenges I faced was trying to get the thermal camera (MLX90640) to automatically lock onto heated objects. While simultaneously at the same time have the thermal camera mounted onto servo motors to have it scan an area of heated objects. However, when the thermal camera was scanning for heated objects it would end up detecting its own heat from its motor and lock onto itself. To fix this problem I decided I had to pivot from the motors being automatic to manual. Making the thermal camera manual consisted of using the touchscreen the thermal camera was displaying on and adding buttons on the touchscreen to manually control the servo motors. 
 
-Another challenge I faced was 
+Another challenge I faced was finding a correct spring size for my rockets. I had initially ordered a spring that fit inside of the rocket holder. However this spring was too long and also too stiff for the rocket. As time was running out I had to improvise by cutting down the size of the rocket and also using clamps to compress the spring in order to load the rocket. Though this is only a temporary solution until I eventually get new springs on my own. 
 
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
@@ -58,9 +58,8 @@ I built my Mini Tank Robot using tank treads, wheels, motors, a led lightboard, 
 Some challenges I faced was trying to upload code to the Mini Tank Robot. I tried switching out the Arduino UNO, along with modifying my code to ensure that there weren't any errors. However, I realized that the problem was due to me having a bluetooth module connected to the Arduino. This bluetooth module prevents new code from being uploaded to the robot when its connected to the Arduino, and so I learned to remove it whenever uploading new code. Another challenge I faced was finding a way to power the robot without it being plugged into the laptop. Since we didn't have 18650 batteries that the Mini Tank Robot originally took, I had to improvise. I decided that I would connect the robot to a battery pack connected to a usb port instead of using batteries. 
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
-![Bot Image](IMG_5809.jpeg)
+![Schematic Image](Schematic.png)
 
 # Code
 Driving Code
