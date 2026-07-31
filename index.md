@@ -301,6 +301,13 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Screws and Nuts | Secures all of the parts of the robot | N/A | <a href="https://www.keyestudio.com/products/keyestudio-diy-mini-tank-v20-smart-robot-car-kit-for-arduino-stem"> Link </a> |
 | Acrylic Pieces | Base of the robot and securing the LED board | N/A | <a href="https://www.keyestudio.com/products/keyestudio-diy-mini-tank-v20-smart-robot-car-kit-for-arduino-stem"> Link </a> |
 | Battery Pack | Powers the robot | $13 | <a href="https://www.walmart.com/ip/20000-mAh-Portable-Charger-Power-Bank-Dual-USB-Battery-Pack-for-iPhone-iPad-Galaxy-Android-Pixel-and-Tablet-Black/3303493713"> Link </a> |
+| Springs | Helps propel the rocket forward | $10 | <a href="https://www.amazon.com/C-750-Compression-Spring-Length-Pack/dp/B0DQY2YCS4"> Link </a> |
+| Quick Release Pin | Keeps the rocket in place | $10 | <a href="https://www.harfington.com/products/p-2048643?currency=USD&country=US&variant=48270078312697&utm_source=google&utm_medium=cpc&utm_campaign=Google%20Shopping&stkn=f8e35277684b&utm_term=260326-us-pmax-hw&utm_content=ywh&gad_source=1&gad_campaignid=23692360685&gbraid=0AAAAAoTFl2TgA-3D1v6bV-FaXlJ8gk1BC&gclid=Cj0KCQjw94bTBhDQARIsAN3vv0xWkALvr7dKJGuiN4akh1sjvkMSBRZON_nUIW183mC3TnpWIoF07XgaAikHEALw_wcB"> Link </a> |
+| ILI9341 | Displays the thermal imagery | $16 | <a href="https://www.amazon.com/HiLetgo-240X320-Resolution-Display-ILI9341/dp/B073R7BH1B"> Link </a> |
+| MLX90640 | Detects heat in front of it | $67 | <a href="https://www.amazon.com/MLX90640-Interface-Compatible-Raspberry-MLX90640-D55/dp/B07ZMP995T"> Link </a> |
+| ESP32 | Allows the MLX90640 and ILI9341 to communicate each other and lets the thermal imagery be displayed on the ILI9341 | $67 | <a href="https://www.amazon.com/ESP32-NodeMCU-Development-ESP32-WROOM-32-CP-2102/dp/B0DF56JRDW?th=1"> Link </a> |
+| MG996R Servo Motors | Lets the IR Thermal camera move around and for the rockets to move with it | $18 | <a href="https://www.amazon.com/4-Pack-MG996R-Torque-Digital-Helicopter/dp/B07MFK266B?th=1"> Link </a> |
+
 
 
 # Starter Project
