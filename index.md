@@ -22,11 +22,9 @@ I faced many challenges during this milestone when it came to the IR Thermal cam
 
 Another challenge I faced was finding a correct spring size for my rockets. I had initially ordered a spring that fit inside of the rocket holder. However this spring was too long and also too stiff for the rocket. As time was running out I had to improvise by cutting down the size of the rocket and also using clamps to compress the spring in order to load the rocket. Though this is only a temporary solution until I eventually get new springs on my own. 
 
+## The Future
+After learning a variety of skills from BlueStamp Engineering from soldering to using CAD I hope to create more projects in the future. Utilizing my new CAD skills I want to be able to create my own 3d prints, and projects on my own and I hope to learn more skills based off of what I know now. 
 For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
 
 ![Bot Image](IMG_5868.jpeg)
 
