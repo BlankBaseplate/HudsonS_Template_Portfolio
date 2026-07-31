@@ -26,7 +26,7 @@ Another challenge I faced was finding a correct spring size for my rockets. I ha
 After learning a variety of skills from BlueStamp Engineering from soldering to using CAD I hope to create more projects in the future. Utilizing my new CAD skills I want to be able to create my own 3d prints, and projects on my own and I hope to learn more skills based off of what I know now. 
 
 ![Final Bot Image](IMG_5922.jpeg)
-
+![Final Bot and me](IMG_3859.jpeg)
 # Second Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YkA2mTx3aO4?si=McGtIobe3QWB95xG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
