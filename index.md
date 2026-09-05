@@ -9,7 +9,7 @@ My Mini tank Robot consists of using an Arduino UNO and Sensor Shield v5.0 to dr
   
 # Final Milestone
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vankBw7KZC0?si=h-0fb-SfWnlyK1Qw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Summary
 In this milestone I focused on modifying my project. I 3d printed a rocket holder, a turret for the rocket holder, and the rockets themselves. Aswell as implemented a thermal camera to track heat that I can manually have the rockets lock onto. This works by having the thermal camera track the hottest source and when I click lock on the touchscreen it automatically locks onto the hottest heat source within the touchscreen. 
